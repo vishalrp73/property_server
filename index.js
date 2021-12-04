@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const port = 4000;
-const db = require('./properties.json');
+const db = require('./rentals.json');
 
 const app = express();
 app.use(cors());
